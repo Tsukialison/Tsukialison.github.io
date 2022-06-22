@@ -1,22 +1,72 @@
 body{
-    background-color: rgb(10, 78, 78);
-
+    background-image: url(https://i.pinimg.com/originals/4e/61/33/4e61335974b6c89873e8ade9d062f8ec.gif);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-img{
+.escudo{
     width: 200PX;
     height: 200px;
     border-radius: 20px;
-    border: 5px solid blueviolet;
     display: block;
     margin: auto;
+    position: absolute;
+    right: 5em;
+    top: 35px;
 
 }
 
+.uno{
+    width: 200PX;
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+.dos{
+    width: 200PX;
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    top: 400px;
+    right: 200px;
+}
+
 h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 200pt;
+    font-family: 'Press Start 2P', cursive;
 font-size: 40pt;
-color: aquamarine;
-background-color: rgb(145, 139, 226);
+color: rgb(159, 202, 187);
 border-radius: 20pt;
+text-transform:capitalize;
+}
+
+p{
+    font-family: 'Space Mono', monospace;
+    color: aquamarine;
+    font-size: large;
+    position: absolute;
+    right: 30em;
+    top: 165px;}
+
+h2{
+    
+    color: rgb(159, 202, 187);
+    position: absolute;
+    right: 45em;
+    top: 35px;
+}
+
+h3{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    color: rgb(56, 54, 54);
+    position: absolute;
+    top: 380px;
+    left: 550px;
+    font-size: 22px;
 }
