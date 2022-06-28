@@ -1,0 +1,36 @@
+.union{
+    background-color: cyan;
+    text-shadow: 5px 3px 4px red greenyellow;
+    font-size: 40px;
+    font-family:chiller;
+    color: darkred;
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 800px;
+    bottom: 120px;
+}
+p{
+    background-color: blueviolet;
+    font-family: arial;
+    text-shadow: 5px 5px blue olivedrab;
+    color: chartreuse;
+    font-size: 70px;
+    text-align: center;
+    background-image: url(los sim.jpg);
+}
+body{
+    background-image:url(bolitas.gif) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+}
+h2{
+    color: deepskyblue;
+    width: 40px;
+    height: 40px;
+}
